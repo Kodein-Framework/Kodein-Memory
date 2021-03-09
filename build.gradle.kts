@@ -11,4 +11,4 @@ allprojects {
     }
 }
 
-val kotlinxSerializationVer by extra { "1.1.0" }
+val kotlinxSerializationVer by extra { "1.0.1" }
