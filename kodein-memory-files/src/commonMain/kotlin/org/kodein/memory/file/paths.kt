@@ -1,7 +1,8 @@
 package org.kodein.memory.file
 
 
-public inline class Path(public val path: String) {
+@JvmInline
+public value class Path(public val path: String) {
 
     public constructor(vararg values: String) : this(values.joinToString(separator))
 
